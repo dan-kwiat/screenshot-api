@@ -1,0 +1,18 @@
+{
+  "name": "screenshot-api",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "dan-kwiat <dan.kwiat@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chrome-aws-lambda": "5.5.0",
+    "cors": "^2.8.5",
+    "puppeteer-core": "5.5.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^1.9.0",
+    "puppeteer": "5.5.0"
+  }
+}
