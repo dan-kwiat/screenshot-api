@@ -40,7 +40,7 @@ const API_URL = "https://screenshot.example.com/api"
 const SNAPSHOT_URL = "https://example.com/my-pretty-report"
 const IMAGE_FILENAME = "my-pretty-report.png"
 
-function arrayBufferToBase64(buffer: Buffer) {
+function arrayBufferToBase64(buffer) {
   var binary = ""
   var bytes = [].slice.call(new Uint8Array(buffer))
   bytes.forEach((b) => (binary += String.fromCharCode(b)))
